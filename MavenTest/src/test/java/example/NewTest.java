@@ -24,6 +24,7 @@ public class NewTest {
 		@AfterTest
 		public void afterTest() {
 			//closingbrowser
-			driver.quit();			
+			driver.quit();	
+			System.out.println("Need Know about run");
 		}		
 }	
