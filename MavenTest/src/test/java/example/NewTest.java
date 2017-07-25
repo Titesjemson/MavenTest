@@ -17,6 +17,7 @@ public class NewTest {
 		}	
 		@BeforeTest
 		public void beforeTest() {	
+			//browser info
 		    driver = new FirefoxDriver();  
 		}		
 		@AfterTest
