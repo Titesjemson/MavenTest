@@ -23,7 +23,7 @@ public class NewTest {
 		}		
 		@AfterTest
 		public void afterTest() {
-			//close
+			//closingbrowser
 			driver.quit();			
 		}		
 }	
