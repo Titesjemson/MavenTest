@@ -23,8 +23,8 @@ public class NewTest {
 		}		
 		@AfterTest
 		public void afterTest() {
-			//closingbrowserss
+			
 			driver.quit();	
-			System.out.println("Need Know about run");
+			//System.out.println("Need Know about run");
 		}		
 }	
