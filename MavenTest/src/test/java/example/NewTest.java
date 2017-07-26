@@ -22,8 +22,7 @@ public class NewTest {
 		    driver = new FirefoxDriver();  
 		}		
 		@AfterTest
-		public void afterTest() {
-			//VijayDemo
+		public void afterTest() {			
 			driver.quit();	
 			//System.out.println("Need Know about run");
 		}		
